@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "2b196ab0-fbe7-4995-8964-5918bbba9613",
+		"name": "Samantha",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26722562"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nome_paciente",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "telefone_paciente",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "celular_paciente",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "email_paciente",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "nome_responsavel",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "telefone_responsavel",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "foto_paciente",
+							"type": "file",
+							"src": "/C:/Users/Samantha/Downloads/cachorro.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url_base}}/paciente/cadastro",
+					"host": [
+						"{{url_base}}"
+					],
+					"path": [
+						"paciente",
+						"cadastro"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
